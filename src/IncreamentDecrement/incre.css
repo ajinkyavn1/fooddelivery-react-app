@@ -1,0 +1,24 @@
+.Card{
+    box-shadow:  0 4px 8px 0 rebeccapurple;
+    transition:  0.3s;
+    margin: auto;
+    width: 50%;
+    flex: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 100px 20px 100px 10px;
+}
+
+.Card:hover{
+    box-shadow: 0 8px 16px 0 green;
+
+}
+
+.container{
+    margin: 10px;
+    background-color: lightblue;
+    border-radius: 100px 100px 100px 100px;
+}
+.Button{
+    border-radius: 10px 1px 5px 1px;
+}

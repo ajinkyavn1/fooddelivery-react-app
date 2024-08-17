@@ -1,0 +1,23 @@
+.Container{
+    border: 4px;
+    background-color: aqua;
+    margin: auto ;
+    flex: auto;
+    border-radius: 20px 40px;
+    align-items: center;
+    border: 3px solid green;
+    padding: 10px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.Form input[type=text]{
+    width: 50%;
+    border-radius: 10px 2px;
+}
+.deleteTodo{
+    border-radius: 10px ;
+    box-shadow: inset;
+    color: rgba(5, 5, 5, 0.973);
+    background-color: rgba(231, 45, 54, 0.616);
+}
