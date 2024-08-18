@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Navbar.css'
-import '../assests/assets'
-import { assets } from "../assests/assets";
+import '../../assests/assets'
+import { assets } from "../../assests/assets";
 function Navbar(){
     const [currentActive,setCurrentActive]=useState("home")
     const  setMenu=(str)=>{
