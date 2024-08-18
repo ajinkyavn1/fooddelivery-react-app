@@ -1,0 +1,53 @@
+.NavButton{
+    border-radius: 10px;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.NavCart{
+    border-radius: 10px;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.Navbar{
+  
+    padding: 20px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavBar-Menu{
+    display:flex;
+    cursor: pointer;
+    list-style: none;
+    gap: 20px;
+}
+.Navbar-right{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+.NavButton:hover{
+    border-radius: 50px;
+}
+.SearchIcon:hover,.Dot:hover{
+    box-shadow: 11px 8px 16px 0 lightblue;
+}
+.active{
+    padding-bottom: 1px;
+    border-bottom: 2px solid green;
+}
+.SearchIcon {
+    position: relative;
+}
+.SearchIcon .Dot{
+    display: flex;
+    min-width: 12px;
+    min-height: 12px;
+    position:absolute;
+    background-color: tomato;
+    border-radius: 8px;
+    top: -8px;
+    right: -8px;
+}
